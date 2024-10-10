@@ -1,0 +1,23 @@
+.home-info {
+  padding: 20px;
+  text-align: center;
+  height: auto;
+}
+.info-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0;
+}
+.info-card h2 {
+  margin: 10px 0;
+}
+.info-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+.info-card ul li {
+    font-size: 18px;
+    font-weight: 500;
+}

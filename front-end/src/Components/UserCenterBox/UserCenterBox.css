@@ -1,0 +1,94 @@
+.usercenterbox {
+  height: 83vh;
+  border: 2px solid black;
+  margin: 5px 10px 0px;
+  padding: 5px 10px;
+  background: linear-gradient(180deg, blue, #8b82ee 60%);
+}
+.usercenterbox .is {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 80px;
+  padding: 20px;
+}
+.usercenterbox .is h2 {
+  font-size: 50px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+.user-center-box-nav {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.user-center-box-nav p {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+.center-question {
+  margin-top: 10px;
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.center-question p {
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+.option-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+.option-list label {
+  margin: 5px 0;
+  color: black; 
+  cursor: pointer;
+}
+input[type="radio"] {
+  margin-right: 10px; 
+  cursor: pointer;
+}
+label span {
+    font-size: 25px;
+    font-weight: 600;
+}
+label span:hover {
+    color: rgb(87, 75, 75);
+}
+.save-next {
+  align-self: center;
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+.save-next button {
+  width: 250px; 
+  padding: 2px 5px;
+  height: 50px;
+  font-size: 30px;
+  background-color: #3838e0;
+  border: 3px solid black;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.save-next button:hover {
+  background-color: #4b4b5c;
+}
+.save-next button.disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  border: 3px solid gray;
+  color: #666666;
+  transform: none;
+}

@@ -1,0 +1,85 @@
+.admin-add-question {
+  background: linear-gradient(180deg, rgb(182, 182, 186), #787781 60%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  width: 70%;
+  padding: 10px 30px;
+  border-radius: 15px;
+  height: 80vh;
+}
+.add-add {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.question {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.question h3 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+}
+.question input {
+  height: 40px;
+  width: 800px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.question input::placeholder {
+  font-size: 16px;
+  color: #333;
+}
+.type-difficulty {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.type-difficulty select {
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+.type-difficulty select option {
+  font-size: 16px;
+}
+.type-difficulty select:hover {
+  border-color: #888;
+  background-color: #fff;
+}
+.type-difficulty select:focus {
+  outline: none;
+  border-color: #555;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.add-add button {
+  width: 200px;
+  height: 40px;
+  font-size: 25px;
+  position: relative;
+  left: 35%;
+  font-weight: 600;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.add-add button:hover {
+  background-color: #45a049;
+}
+.add-add button:focus {
+  outline: none;
+}
