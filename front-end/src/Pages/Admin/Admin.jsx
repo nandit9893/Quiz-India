@@ -80,7 +80,7 @@ const Admin = () => {
           </div>
           <div className="question">
             <h3>Incorrect Answer</h3>
-            <input type="text" placeholder="Type here" name="incorrect_answers" value={form.incorrect_answers} onChange={changeHandler} />
+            <input type="text" placeholder="Please use comma for separating all incorrect answers" name="incorrect_answers" value={form.incorrect_answers} onChange={changeHandler} />
           </div>
           <button onClick={addQuestion}>ADD</button>
         </div>
