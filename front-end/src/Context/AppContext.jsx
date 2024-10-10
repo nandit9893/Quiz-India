@@ -4,7 +4,7 @@ import axios from "axios";
 export const AppContext = createContext();
 
 const AppContextProvider = ({ children }) => {
-  const url = "http://localhost:8000";
+  const url = "https://quiz-india-back-end.onrender.com";
   const [ categories, setCategories ] = useState([]);
   const [ category, setCategory ] = useState("none");
   const [ type, setType ] = useState("none");
